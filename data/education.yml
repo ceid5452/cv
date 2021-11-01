@@ -2,15 +2,14 @@
 
 education:
 - years: October 2021 - today
-  msc: Master in Human-Computer Interaction
+  subject: Master in Human-Computer Interaction
+  diplomaThesis: '-'
   institute: University of Patras
   city: Patras
 - years: September 2011 - December 2017
-  department: Computer Engineering & Informatics Department, School of Engineering
-  diploma_grade: Very Good – 6.79/10.00
+  subject: Computer Engineering & Informatics Department, School of Engineering
+  diplomaThesis: 'Eye Tracking Metrics: a Case Study on Display Advertising' 
   institute: University of Patras
   city: Patras
-  diploma_thesis: 'Eye Tracking Metrics: a Case Study on Display Advertising'
-  diploma_thesis_grade: 10.00/10.00
 
 ---
