@@ -1,10 +1,10 @@
 ## Filiopoulou Dionysia ceid5452
 
-{{site.data.personal.name }}
-{{site.data.personal.email }}
+{{cv.data.personal.name }}
+{{cv.data.personal.email }}
 _______________________
 
-{% for item in site.data.personal.urls %}
+{% for item in cv.data.personal.urls %}
 [{{item.link}}](http://{{ item.link }})<br>
 {% endfor %}
 
@@ -12,7 +12,7 @@ _______________________
 
 ### Education
 
-{% for edu in site.data.education.education %}
+{% for edu in cv.data.education.education %}
 {{edu.years}}<br>
 **{{edu.subject}}**<br>
 {{edu.diplomaThesis}}<br> 
@@ -22,9 +22,9 @@ _______________________
 
 _______________________
 
-## Expirenece
+### Expirenece
 
-{% for exp in site.data.experience.experience %}
+{% for exp in cv.data.experience.experience %}
     {{exp.years}}<br> 
     **{{exp.job}}**<br> 
     {{exp.company}}<br> 
@@ -37,7 +37,7 @@ _______________________
 
 ### Conferences
 
-{% for conf in site.data.conferences.conferences %}
+{% for conf in cv.data.conferences.conferences %}
    {{conf.years}}<br> 
    **{{conf.event}}**<br> 
    {{conf.city}}<br> 
@@ -47,9 +47,9 @@ _______________________
 
 ### Languages
 
-**Greek:** {{site.data.languages.greek }}
-**English:** {{site.data.languages.english }}
-**French:** {{site.data.languages.french }}
+**Greek:** {{cv.data.languages.greek }}<br>
+**English:** {{cv.data.languages.english }}<br>
+**French:** {{cv.data.languages.french }}<br>
 
 
 _______________________
