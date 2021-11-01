@@ -1,13 +1,12 @@
+## Filiopoulou Dionysia ceid5452
 
-   
-### Filiopoulou Dionysia 
-_______________________ 
+{{site.data.personal.name }}
+{{site.data.personal.email }}
+_______________________
 
-### Personal Information
-
-[{{site.data.personal.page}}](http://{{ site.data.personal.page }}) -- {{site.data.personal.email }} <br/>
-
-{% for item in site.data.personal.urls %}[{{item.link}}](http://{{ item.link }})<br>{% endfor %}
+{% for item in site.data.personal.urls %}
+[{{item.link}}](http://{{ item.link }})<br>
+{% endfor %}
 
 _______________________
 
@@ -15,28 +14,42 @@ _______________________
 
 {% for edu in site.data.education.education %}
 {{edu.years}}<br>
-__{{edu.subject}}__ <br>
-{{edu.institute}} <br> 
-*{{edu.city}}* <br> <br>
+**{{edu.subject}}**<br>
+{{edu.diplomaThesis}}<br> 
+{{edu.institute}}<br> 
+*{{edu.city}}*<br> <br>
 {% endfor %}
 
 _______________________
 
-### Languages
+## Expirenece
 
-{% for l in site.data.languages.languages %}
-{{l.langA}} :  {{l.levelA}}  
-{{l.langB}} :  {{l.levelB}}
+{% for exp in site.data.experience.experience %}
+    {{exp.years}}<br> 
+    **{{exp.job}}**<br> 
+    {{exp.company}}<br> 
+    {{exp.company}}<br> 
+   [{{exp.employer}}](http://{{ exp.link }})<br> 
+    *{{exp.city}}*<br> 
 {% endfor %}
 
 _______________________
 
 ### Conferences
 
-{% for s in site.data.conferences.conferences %}
-{{s.years}} :  {{s.years}}  
-{{s.event}} :  {{s.event}}
-{{s.city}}  :  {{s.city}}
+{% for conf in site.data.conferences.conferences %}
+   {{conf.years}}<br> 
+   **{{conf.event}}**<br> 
+   {{conf.city}}<br> 
 {% endfor %}
+
+_______________________
+
+### Languages
+
+**Greek:** {{site.data.languages.greek }}
+**English:** {{site.data.languages.english }}
+**French:** {{site.data.languages.french }}
+
 
 _______________________
