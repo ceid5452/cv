@@ -5,17 +5,10 @@ _______________________
 
 ### Personal Information
 
-{% for p in site.data.personal_details.personal_details %} 
-<dl>
-<dt> Name: </dt>
-<dd> {{p.name}} </dd> 
-<dt> Email: </dt>
-<dd> {{p.email}} </dd> 
-<dt> Github Link: </dt> 
-<dd> https://{{p.link}} </dd>
-</dl>
-{% endfor %}
- 
+[{{site.data.personal.page}}](http://{{ site.data.personal.page }}) -- {{site.data.personal.email }} <br/>
+
+{% for item in site.data.personal.urls %}[{{item.link}}](http://{{ item.link }})<br>{% endfor %}
+
 _______________________
 
 ### Education
