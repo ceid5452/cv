@@ -16,7 +16,7 @@ _______________________
     **Period time:** {{ edu.years }}<br>
     **Subject:** {{ edu.subject }}<br>
     **Diploma Thesis:** {{ edu.diplomathesis }}<br> 
-    **Institute:** {{ edu.institute }<br> 
+    **Institute:** {{ edu.institute }}<br> 
     **City:** {{ edu.city }} <br>
 {% endfor %}
 
