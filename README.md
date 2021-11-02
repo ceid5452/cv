@@ -10,6 +10,7 @@
 
 _______________________
 
+
 ### Education
 
 {% for ed in site.data.education.education %}
@@ -23,6 +24,7 @@ _______________________
 
 _______________________
 
+
 ### Expirenece
 
 {% for ex in site.data.experience.experience %}
@@ -35,6 +37,7 @@ _______________________
 
 _______________________
 
+
 ### Conferences
 
 {% for conf in site.data.conferences.conferences %}
@@ -44,6 +47,7 @@ _______________________
 {% endfor %}
 
 _______________________
+
 
 ### Languages
 
