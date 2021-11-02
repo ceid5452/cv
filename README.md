@@ -5,7 +5,7 @@
 **Email:** {{ site.data.personal.email }}<br>
 **Date of Birth:** {{ site.data.personal.birthday }}<br>
 **City:** {{ site.data.personal.city }}<br>
-**LinkedIn link:** {{ site.data.personal.linkedin }}<br>
+**LinkedIn link:** [{{site.data.personal.linkedin}}](http://{{ site.data.personal.linkedin }})<br> 
 **GitHub link:** {{ site.data.personal.github }}<br>
 
 _______________________
@@ -16,7 +16,7 @@ _______________________
     **Period time:** {{ edu.years }}<br>
     **Subject:** {{ edu.subject }}<br>
     **Diploma Thesis:** {{ du.diplomaThesis }}<br> 
-    **Institute:** {{ edu.institute }}<br> 
+    **Institute:** {{ edu.institute }<br> 
     **City:** {{ edu.city }} <br>
 {% endfor %}
 
@@ -24,12 +24,12 @@ _______________________
 
 ### Expirenece
 
-{% for exp in site.data.experience.experience %}
-    **Period time:** {{ exp.years }}<br> 
-    **Job Title:** {{ exp.job }}<br> 
-    **Company:** {{ xp.company }}<br> 
-    **Company Link:** (http://{{ exp.employer }})<br> 
-    **City:** {{ exp.city }}<br> 
+{% for ex in site.data.experience.experience %}
+   **Period Time:** {{ ex.years }}<br> 
+   **Job Title:** {{ ex.job }}<br> 
+   **Company:** {{ ex.company }}<br> 
+   **Company Link:** [{{ ex.employer }}](http://{{ ex.employer }})<br> 
+   **City:** {{ exp.city }})<br> 
 {% endfor %}
 
 _______________________
