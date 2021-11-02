@@ -13,12 +13,12 @@ _______________________
 
 ### Education
 
-{% for cu in site.data.education.education %}
-    **Period time:** {{ cu.years }} <br>
-    **Subject:** {{ cu.subject }} <br>
-    **Diploma Thesis:** {{ cu.diploma }} <br> 
-    **Institute:** {{ cu.institute }} <br> 
-    **City:** {{ cu.city }} <br>
+{% for edu in site.data.education %}
+    **Period time:** {{ edu.years }} <br>
+    **Subject:** {{ edu.subject }} <br>
+    **Diploma Thesis:** {{ edu.diploma }} <br> 
+    **Institute:** {{ edu.institute }} <br> 
+    **City:** {{ edu.city }} <br>
 {% endfor %}
 
 _______________________
