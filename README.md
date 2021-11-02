@@ -13,16 +13,13 @@ _______________________
 
 ### Education
 
-{% for ed in site.data.education.education %}
-    **Period time:** {{ ed.years }} <br>
-    **Subject:** {{ ed.subject }} <br>
-    **Diploma Thesis:** {{ ed.diploma }} <br> 
-    **Institute:** {{ ed.institute }} <br> 
-    **City:** {{ ed.city }} <br>
+{% for cu in site.data.education.education %}
+    **Period time:** {{ cu.years }} <br>
+    **Subject:** {{ cu.subject }} <br>
+    **Diploma Thesis:** {{ cu.diploma }} <br> 
+    **Institute:** {{ cu.institute }} <br> 
+    **City:** {{ cu.city }} <br>
 {% endfor %}
-
-
-
 
 _______________________
 
@@ -56,6 +53,5 @@ _______________________
 **Greek:** {{ site.data.languages.greek }}<br>
 **English:** {{ site.data.languages.english }}<br>
 **French:** {{ site.data.languages.french }}<br>
-
 
 _______________________
