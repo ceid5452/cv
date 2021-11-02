@@ -12,12 +12,12 @@ _______________________
 
 ### Education
 
-{% for edu in site.data.education.education %}
-    **Period time:** {{ edu.years }}<br>
-    **Subject:** {{ edu.subject }}<br>
-    **Diploma Thesis:** {{ edu.diplomathesis }}<br> 
-    **Institute:** {{ edu.institute }}<br> 
-    **City:** {{ edu.city }} <br>
+{% for ed in site.data.education.education %}
+    **Period time:** {{ ed.years }}<br>
+    **Subject:** {{ ed.subject }}<br>
+    **Diploma Thesis:** {{ ed.diploma }}<br> 
+    **Institute:** {{ ed.institute }}<br> 
+    **City:** {{ ed.city }} <br>
 {% endfor %}
 
 _______________________
@@ -25,11 +25,11 @@ _______________________
 ### Expirenece
 
 {% for ex in site.data.experience.experience %}
-   **Period Time:** {{ ex.years }}<br> 
-   **Job Title:** {{ ex.job }}<br> 
-   **Company:** {{ ex.employer }}<br> 
-   **Company Link:** [{{ ex.employerlink }}](http://{{ ex.employerlink }})<br> 
-   **City:** {{ exp.city }})<br> 
+   **Period Time:** {{ ex.years }} <br> 
+   **Job Title:** {{ ex.job }} <br> 
+   **Employer:** {{ ex.employer }} <br> 
+   **Company Link:** [{{ ex.employerlink }}](http://{{ ex.employerlink }}) <br> 
+   **City:** {{ exp.city }}) <br> 
 {% endfor %}
 
 _______________________
