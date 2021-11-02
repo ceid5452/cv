@@ -15,7 +15,7 @@ _______________________
 {% for edu in site.data.education.education %}
     **Period time:** {{ edu.years }}<br>
     **Subject:** {{ edu.subject }}<br>
-    **Diploma Thesis:** {{ edu.diplomaThesis }}<br> 
+    **Diploma Thesis:** {{ edu.diplomathesis }}<br> 
     **Institute:** {{ edu.institute }<br> 
     **City:** {{ edu.city }} <br>
 {% endfor %}
@@ -28,7 +28,7 @@ _______________________
    **Period Time:** {{ ex.years }}<br> 
    **Job Title:** {{ ex.job }}<br> 
    **Company:** {{ ex.employer }}<br> 
-   **Company Link:** [{{ ex.employerLink }}](http://{{ ex.employerLink }})<br> 
+   **Company Link:** [{{ ex.employerlink }}](http://{{ ex.employerlink }})<br> 
    **City:** {{ exp.city }})<br> 
 {% endfor %}
 
