@@ -13,10 +13,10 @@ _______________________
 ### Education
 
 {% for ed in site.data.education.education %}
-    **Period time:** {{ ed.years }}<br>
-    **Subject:** {{ ed.subject }}<br>
-    **Diploma Thesis:** {{ ed.diploma }}<br> 
-    **Institute:** {{ ed.institute }}<br> 
+    **Period time:** {{ ed.years }} <br>
+    **Subject:** {{ ed.subject }} <br>
+    **Diploma Thesis:** {{ ed.diploma }} <br> 
+    **Institute:** {{ ed.institute }} <br> 
     **City:** {{ ed.city }} <br>
 {% endfor %}
 
@@ -29,7 +29,7 @@ _______________________
    **Job Title:** {{ ex.job }} <br> 
    **Employer:** {{ ex.employer }} <br> 
    **Company Link:** [{{ ex.employerlink }}](http://{{ ex.employerlink }}) <br> 
-   **City:** {{ ex.city }}) <br> 
+   **City:** {{ ex.city }} <br> 
 {% endfor %}
 
 _______________________
