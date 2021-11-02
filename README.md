@@ -6,7 +6,7 @@
 **Date of Birth:** {{ site.data.personal.birthday }}<br>
 **City:** {{ site.data.personal.city }}<br>
 **LinkedIn link:** [{{site.data.personal.linkedin}}](http://{{ site.data.personal.linkedin }})<br> 
-**GitHub link:** {{ site.data.personal.github }}<br>
+**GitHub link:** [{{site.data.personal.github}}](http://{{ site.data.personal.github }}) <br>
 
 _______________________
 
@@ -29,7 +29,7 @@ _______________________
    **Job Title:** {{ ex.job }} <br> 
    **Employer:** {{ ex.employer }} <br> 
    **Company Link:** [{{ ex.employerlink }}](http://{{ ex.employerlink }}) <br> 
-   **City:** {{ exp.city }}) <br> 
+   **City:** {{ ex.city }}) <br> 
 {% endfor %}
 
 _______________________
