@@ -25,11 +25,11 @@ _______________________
 ### Expirenece
 
 {% for ex in site.data.experience.experience %}
-   **Period Time:** {{ ex.years }} <br> 
-   **Job Title:** {{ ex.job }} <br> 
-   **Employer:** {{ ex.employer }} <br> 
-   **Company Link:** [{{ ex.employerlink }}](http://{{ ex.employerlink }}) <br> 
-   **City:** {{ ex.city }} <br> 
+   *Period Time:* {{ ex.years }} <br> 
+   *Job Title:* {{ ex.job }} <br> 
+   *Employer:* {{ ex.employer }} <br> 
+   *Company Link:* [{{ ex.employerlink }}](http://{{ ex.employerlink }}) <br> 
+   *City:* {{ ex.city }} <br> 
 {% endfor %}
 
 _______________________
