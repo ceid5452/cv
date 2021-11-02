@@ -5,14 +5,9 @@
 # Personal details
 name: Dionysia Filiopoulou
 email: dionusia.filiopoulou@gmail.com
-
-
-# Insert URLs without http://
-urls:
-- name: LinkedIn
-  link: www.linkedin.com/in/dionysia-filiopoulou-4a387a158/
-- name: GitHub
-  link: github.com/ceid5452
-
+birthday: 27 July 1993
+city: Patras
+linkedin: www.linkedin.com/in/dionysia-filiopoulou-4a387a158/
+github: github.com/ceid5452
 
 ---
