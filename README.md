@@ -13,7 +13,7 @@ _______________________
 
 ### Education
 
-{% for edu in site.data.education %}
+{% for edu in site.data.education.education %}
     **Period time:** {{ edu.years }} <br>
     **Subject:** {{ edu.subject }} <br>
     **Diploma Thesis:** {{ edu.diploma }} <br> 
