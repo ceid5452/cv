@@ -3,12 +3,13 @@
 
 **Name:** {{site.data.personal.name }}<br>
 **Email:** {{site.data.personal.email }}<br>
+
 _______________________
 
 ### Personal Links
 
 {% for item in site.data.personal.urls %}
-    **{{item.name}}**: [{{item.link}}](http://{{ item.link }})<br>
+    **{{item.name}}**: http://{{ item.link }}<br>
 {% endfor %}
 
 _______________________
