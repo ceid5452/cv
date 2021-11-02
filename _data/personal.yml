@@ -9,8 +9,10 @@ email: dionusia.filiopoulou@gmail.com
 
 # Insert URLs without http://
 urls:
-- link: www.linkedin.com/in/dionysia-filiopoulou-4a387a158/
-- link: github.com/ceid5452
+- name: LinkedIn
+  link: www.linkedin.com/in/dionysia-filiopoulou-4a387a158/
+- name: GitHub
+  link: github.com/ceid5452
 
 
 ---

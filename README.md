@@ -1,12 +1,14 @@
 ## Filiopoulou Dionysia ceid5452
 ### Personal Information
 
-{{site.data.personal.name }}
-{{site.data.personal.email }}
+**Name:** {{site.data.personal.name }}<br>
+**Email:** {{site.data.personal.email }}<br>
 _______________________
 
+### Personal Links
+
 {% for item in site.data.personal.urls %}
-[{{item.link}}](http://{{ item.link }})<br>
+    **{{item.name}}**: [{{item.link}}](http://{{ item.link }})<br>
 {% endfor %}
 
 _______________________
@@ -14,11 +16,11 @@ _______________________
 ### Education
 
 {% for edu in site.data.education.education %}
-{{edu.years}}<br>
-**{{edu.subject}}**<br>
-{{edu.diplomaThesis}}<br> 
-{{edu.institute}}<br> 
-*{{edu.city}}*<br> <br>
+    **Period time:** {{edu.years}}<br>
+    **Subject:** {{edu.subject}}<br>
+    **Diploma Thesis:** {{edu.diplomaThesis}}<br> 
+    **Institute:** {{edu.institute}}<br> 
+    **City:** {{edu.city}} <br>
 {% endfor %}
 
 _______________________
@@ -26,12 +28,11 @@ _______________________
 ### Expirenece
 
 {% for exp in site.data.experience.experience %}
-    {{exp.years}}<br> 
-    **{{exp.job}}**<br> 
-    {{exp.company}}<br> 
-    {{exp.company}}<br> 
-   [{{exp.employer}}](http://{{ exp.link }})<br> 
-    *{{exp.city}}*<br> 
+    **Period time:** {{exp.years}}<br> 
+    **Job Title:** {{exp.job}}<br> 
+    **Company:** {{exp.company}}<br> 
+    **Company Link:** [{{exp.employer}}](http://{{exp.employer}})<br> 
+    **City:** {{exp.city}}<br> 
 {% endfor %}
 
 _______________________
@@ -39,9 +40,9 @@ _______________________
 ### Conferences
 
 {% for conf in site.data.conferences.conferences %}
-   {{conf.years}}<br> 
-   **{{conf.event}}**<br> 
-   {{conf.city}}<br> 
+   **Year:** {{conf.years}}<br> 
+   **Event name:** {{conf.event}}<br> 
+   **City:** {{conf.city}}<br> 
 {% endfor %}
 
 _______________________
