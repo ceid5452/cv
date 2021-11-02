@@ -21,13 +21,7 @@ _______________________
     **City:** {{ ed.city }} <br>
 {% endfor %}
 
-{% for ed in site.data.education.education %}
-    {{ ed.years }} <br>
-    *{{ ed.subject }}* <br>
-    {{ ed.diploma }} <br> 
-    {{ ed.institute }} <br> 
-    {{ ed.city }} <br>
-{% endfor %}
+
 
 
 _______________________
