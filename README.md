@@ -3,7 +3,7 @@
 
 ### Step 1
 Read the to documentations to learn basics for markdown and yaml:
-- **[Markdown documendation](https://www.markdownguide.org/cheat-sheet/)** , - **[Yaml documendation](https://learnxinyminutes.com/docs/yaml/)** 
+**[Markdown documendation](https://www.markdownguide.org/cheat-sheet/)** , **[Yaml documendation](https://learnxinyminutes.com/docs/yaml/)** 
 
 ### Step 2
 Create a _data folder and put your yaml files with your personal info.
